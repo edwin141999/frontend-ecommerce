@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.div-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+/* LOGO */
+
+.div-logo{  
+    width: 290px;
+}
+
+.logo{
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+
+/* BOTONES */
+.div-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 233px;
+}
+
+.p-button{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* SVGS */
+.div-svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 144px;
+}
+
+.img-svg{
+    width: 24px;
+}
+
+.p-svg{
+    display: none;
+}
