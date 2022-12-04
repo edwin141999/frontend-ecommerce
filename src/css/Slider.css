@@ -1,5 +1,33 @@
 .div-slider{
-    background-image: url(../assets/fondo-nike.jpg);
-    height: 81vh;
+    background-image: url(../assets/images/fondo-nike.jpg);
+    height: 80vh;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.p-slider{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+    width: 30%;
+}
+
+.btn-slider{
+    /* BTN */
+    background-color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    /* TEXT */
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
 }

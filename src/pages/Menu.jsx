@@ -1,6 +1,6 @@
-import Search from "../assets/search.svg";
-import Shopping from "../assets/shopping.svg";
-import User from "../assets/user.svg";
+import Search from "../assets/svg/search.svg";
+import Shopping from "../assets/svg/shopping.svg";
+import User from "../assets/svg/user.svg";
 import "../css/Menu.css";
 
 export default function Menu() {
